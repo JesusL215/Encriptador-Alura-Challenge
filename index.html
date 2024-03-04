@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>  
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Encriptador - Alura Challenge</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Space+Mono&display=swap"
+            rel="stylesheet"> 
+    </head>
+    <body>
+        <header>
+            <div class="encabezado">
+                <div class="header">
+                    <img class="logo" src="imagenes.new/alura.svg">
+                </div>  
+            </div>
+        </header>
+        <main>
+            <article class="container">
+                <section class="entrada" id="entrada">
+                    <textarea class="texto-inicial" id="texto-inicial" placeholder="Ingrese el texto aquí" autofocus></textarea>
+                    <div class="terminos-botones">
+                        <span class="info">
+                            <img src="imagenes.new/!.svg" alt="advertencia" />
+                            Solo letras minúsculas y sin acentos
+                        </span>
+                        <div class="botones">
+                            <button id="button_encriptar" class="button_encriptar">Encriptar</button>
+                            <button id="button_desencriptar" class="button_desencriptar">Desencriptar</button>
+                        </div>
+                    </div>
+                </section>
+                <section class="salida" id="salida">
+                    <img id="munheco" class="munheco" src="imagenes.new/munheco.svg" alt="Ningún mensaje fue encontrado. Ingresa el texto que desees encriptar o desencriptar.">
+                    <textarea id="textoFinal" class="textoFinal" placeholder="Ningún mensaje fue encontrado"></textarea>
+                    <p id="textoInfo" class="info">Ingresa el texto que desees encriptar o desencriptar.</p>
+                    <button class="button_copiar bn_ocultar" id="button_copiar">Copiar</button>
+                </section>
+            </article>
+        </main>
+        <footer class="footer ">
+            <p class="creador">Create by 
+                <a href="https://app.aluracursos.com/user/jesus-jli215" target="_blank" class="usuario">
+                    @JesúsLoyola
+                </a>
+            </p>
+            <div>
+                <a href="https://github.com/JesusL215" target="_blank">
+                    <img class="links" id="github" src="imagenes.new/github.svg" />
+                </a>
+                
+                <a href="https://www.linkedin.com/in/jesus-loyola-ilanzo-60a13a2ab/" target="_blank">
+                    <img class="links" id="linkedin" src="imagenes.new/linkedin.svg" />
+                </a>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
